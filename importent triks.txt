@@ -8,3 +8,5 @@ Alll softer dawnload in one website = https://ninite.com/
 kibord sound  == mechvibes.com in app
 
 windwo hideen apps folder in shell run = shell:appsfolders
+
+git code dawnload kivabe korbo  = click the code button http select link copy ; git command git clone url link 
