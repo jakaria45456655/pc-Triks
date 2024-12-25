@@ -5,33 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1{
-            background-color: red;
-            text-align: center;
+        div{
+           width: 300px;
+           height: 300px;
+           background-color: red;
+           margin: 50px auto;
+           border-radius: 50%;
+           position: relative;
+           animation: jakaria;
+           animation-duration: 2s;
+           animation-iteration-count: infinite;
+
+        }
+        p{
             color: white;
-            font-size: 30px;
-            font-family: cursive;
-            text-transform: capitalize;
-            animation: jakaria;
-            animation-duration: 1s;
-            animation-iteration-count: infinite;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 15px; 
         }
         @keyframes jakaria {
             form{
                 background-color: blue;
-               transform: rotate(360deg);
+              transform: rotate(360deg);
             }
             to{
-                background-color: blueviolet;
-                border-radius: 50%;
+                background-color: navy;
                 transform: rotate(360deg);
             }
         }
+       
     </style>
 </head>
 <body>
     
-    <h1>jakaria ahmod jibon </h1>
+    <div>
+        <p>jakaria ahmod jibon </p>
+    </div>
 
 </body>
 </html>
